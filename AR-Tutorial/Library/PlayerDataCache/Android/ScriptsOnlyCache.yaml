@@ -23,22 +23,36 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
     - UnityEngine.UI.VerticalLayoutGroup
     Vuforia.UnityExtensions.dll:
+    - Vuforia.GLErrorHandler
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
+    - Vuforia.UserDefinedTargetBuildingBehaviour
     - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
     VuforiaSamples.dll:
+    - AmbientLightManager
+    - CameraSettings
+    - FrameQualityMeter
+    - FrameRateSettings
+    - InitErrorHandler
+    - MenuOptions
     - MessageBox
+    - NavigationHandler
+    - OptionsConfig
+    - SafeAreaManager
     - StatusMessage
-    - VideoController
-    - VideoTrackableEventHandler
+    - TrackableSettings
+    - UDTEventHandler
     VuforiaScripts.dll:
-    - DefaultInitializationErrorHandler
+    - DefaultTrackableEventHandler
   sceneClasses:
-    Assets/Scenes/Video.unity:
+    Assets/Scenes/Object.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -59,13 +73,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
       Script: {instanceID: 0}
     - Class: 109
       Script: {instanceID: 0}
@@ -76,13 +92,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10006}
     - Class: 114
-      Script: {instanceID: 10022}
+      Script: {instanceID: 10018}
     - Class: 114
       Script: {instanceID: 10112}
     - Class: 114
       Script: {instanceID: 10128}
-    - Class: 114
-      Script: {instanceID: 10360}
     - Class: 114
       Script: {instanceID: 10422}
     - Class: 114
@@ -90,17 +104,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10494}
     - Class: 114
-      Script: {instanceID: 10582}
-    - Class: 114
-      Script: {instanceID: 10604}
-    - Class: 114
-      Script: {instanceID: 10612}
-    - Class: 114
       Script: {instanceID: 10624}
+    - Class: 114
+      Script: {instanceID: 10636}
+    - Class: 114
+      Script: {instanceID: 10684}
+    - Class: 114
+      Script: {instanceID: 10694}
+    - Class: 114
+      Script: {instanceID: 10716}
+    - Class: 114
+      Script: {instanceID: 10718}
+    - Class: 114
+      Script: {instanceID: 10724}
+    - Class: 114
+      Script: {instanceID: 10868}
+    - Class: 114
+      Script: {instanceID: 10958}
+    - Class: 114
+      Script: {instanceID: 11048}
     - Class: 114
       Script: {instanceID: 11056}
     - Class: 114
+      Script: {instanceID: 11066}
+    - Class: 114
+      Script: {instanceID: 11078}
+    - Class: 114
       Script: {instanceID: 11148}
+    - Class: 114
+      Script: {instanceID: 11254}
+    - Class: 114
+      Script: {instanceID: 11260}
     - Class: 114
       Script: {instanceID: 11280}
     - Class: 114
@@ -108,15 +142,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11362}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11454}
+    - Class: 114
+      Script: {instanceID: 11552}
     - Class: 114
       Script: {instanceID: 11710}
     - Class: 114
+      Script: {instanceID: 11852}
+    - Class: 114
       Script: {instanceID: 11962}
     - Class: 114
+      Script: {instanceID: 11990}
+    - Class: 114
       Script: {instanceID: 11996}
+    - Class: 114
+      Script: {instanceID: 12010}
+    - Class: 114
+      Script: {instanceID: 12046}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,10 +176,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
-      Script: {instanceID: 0}
-    - Class: 328
-      Script: {instanceID: 0}
-    - Class: 329
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1910,5 +1950,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Video.unity
+  - Assets/Scenes/Object.unity
   playerPath: /Users/jws/Downloads/test.apk

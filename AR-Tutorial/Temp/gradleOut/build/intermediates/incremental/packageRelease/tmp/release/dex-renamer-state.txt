@@ -1,4 +1,4 @@
-#Wed Mar 04 19:40:45 KST 2020
+#Wed Mar 04 21:53:46 KST 2020
 base.0=/Users/jws/Desktop/200304_AR-Tutorial_UnityAR/AR-Tutorial/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex
