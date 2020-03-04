@@ -55,7 +55,7 @@ android {
     }
 
     aaptOptions {
-        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'vuforia/ar-tutorial.dat', 'vuforia/ar-tutorial.xml', 'vuforia/arvideoexam_test.dat', 'vuforia/arvideoexam_test.xml', 'vuforia/vuforiamars_images.dat', 'vuforia/vuforiamars_images.xml', 'vuforia/vuforiamars_modeltarget.dat', 'vuforia/vuforiamars_modeltarget.xml', 'vuforia/vuforiamars_modeltarget360.dat', 'vuforia/vuforiamars_modeltarget360.xml', 'vuforia/vuforiamars_object_ot.dat', 'vuforia/vuforiamars_object_ot.xml', 'vuforia/vuforiamars_vumark.dat', 'vuforia/vuforiamars_vumark.xml', 'vuforia/vuforia_motorcycle_marslander.dat', 'vuforia/vuforia_motorcycle_marslander.xml']
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'vuforia/ar-tutorial.dat', 'vuforia/ar-tutorial.xml', 'vuforia/arvideoexam_test.dat', 'vuforia/arvideoexam_test.xml', 'vuforia/data_test.dat', 'vuforia/data_test.xml', 'vuforia/vuforiamars_images.dat', 'vuforia/vuforiamars_images.xml', 'vuforia/vuforiamars_modeltarget.dat', 'vuforia/vuforiamars_modeltarget.xml', 'vuforia/vuforiamars_modeltarget360.dat', 'vuforia/vuforiamars_modeltarget360.xml', 'vuforia/vuforiamars_object_ot.dat', 'vuforia/vuforiamars_object_ot.xml', 'vuforia/vuforiamars_vumark.dat', 'vuforia/vuforiamars_vumark.xml', 'vuforia/vuforia_motorcycle_marslander.dat', 'vuforia/vuforia_motorcycle_marslander.xml']
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
     }
 

@@ -53,7 +53,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Video.unity
     guid: 23fee3acd4ec5418eb1606e17beea909
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Object.unity
     guid: af994f5c1d55346528c41e2c0fb63865
+  - enabled: 1
+    path: Assets/Scenes/Move.unity
+    guid: 772cacb6aac3748138274af00253ec8b
   m_configObjects: {}
